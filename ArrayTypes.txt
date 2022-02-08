@@ -1,0 +1,14 @@
+package com.array.demo;
+
+public class Arraytypes {
+	public static void main(String[] args) {
+		int a[][] = { { 23, 45, 63, 78, 92 }, { 67, 43, 21, 89, 67 } };
+
+		for (int i = 0; i <a.length; i++)//It takes  2 values from an array since length of an array is 2
+
+			for (int j = 0; j <a.length; j++) {
+				System.out.println(a[i][j]);
+
+			}
+	}
+}

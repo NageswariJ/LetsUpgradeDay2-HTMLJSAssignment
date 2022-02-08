@@ -1,0 +1,33 @@
+package com.inheritance.demo;
+//Single level Inheritance
+class Calc //Super class/Parent class/Base class
+{
+	void add(int a, int b) {
+		int add_result = a + b;
+		System.out.println("Addition of two numbers" + add_result);
+	}
+
+	void sub(int c, int d) {
+		int sub_value = c - d;
+		System.out.println("Subtraction of two numbers" + sub_value);
+	}
+}
+
+class CalcAdv extends Calc //Sub class/Child Class/Derived class
+{
+	float mult(float a, float b) {
+
+		System.out.println("Advanced Calculator" + a * b);
+		return a * b;
+	}
+}
+
+public class Inherit_Types {
+	public static void main(String[] args) {
+		CalcAdv obj = new CalcAdv();
+		obj.mult(15, 30);
+		obj.sub(56, 36);
+		obj.add(18, 19);
+
+	}
+}
