@@ -1,0 +1,44 @@
+var chocolates = new Array("Dairymilk","fivestar","Munch","perk","kitkat");
+var sweets = "";
+for (var i = 0; i < chocolates.length; i++) {
+   sweetsString += chocolates[i] + " ";
+}
+alert(sweetsString);
+
+
+//var avengers=new Array("Thor","CaptainAmerica","IronMan","Hawkseye");
+
+let students = ['John', 'Sara', 'Jack'];
+
+// using forEach
+students.forEach(myFunction);
+
+function myFunction(item, index, arr) {
+
+    // adding strings to the array elements
+    arr[index] = 'Hello ' + item;
+}
+
+console.log(students);
+
+
+// program to display text 5 times
+const n = 5;
+
+// looping from i = 1 to 5
+for (let i = 1; i <= n; i++) {
+    console.log(`I love JavaScript.`);
+}
+
+
+
+
+let students = ['John', 'Sara', 'Jack'];
+
+// using forEach
+students.forEach(myFunction);
+
+function myFunction(item) {
+
+    console.log(item);
+}
